@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - ICT Professional</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="container nav">
+            <a href="#home" class="logo">Portfolio</a>
+            <button id="themeToggle">🌙</button>
+
+            <!-- Desktop Navigation -->
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Over Mij</a></li>
+                <li><a href="#projects" class="nav-link">Projecten</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <i data-lucide="menu" id="menuIcon"></i>
+                <i data-lucide="x" id="closeIcon" style="display: none;"></i>
+            </button>
+        </nav>
+
+        <!-- Mobile Navigation -->
+        <ul class="mobile-nav" id="mobileNav">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">Over Mij</a></li>
+            <li><a href="#projects" class="nav-link">Projecten</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="badge">
+                <p>ICT Professional</p>
+            </div>
+            <h1 class="hero-title">Welkom bij mijn Portfolio</h1>
+            <p class="hero-subtitle">Creatieve ICT-oplossingen met een natuurlijke touch</p>
+            <a href="#projects" class="btn-primary">Bekijk Mijn Werk</a>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i data-lucide="chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <div class="about-bg-decoration"></div>
+                    <img src="./img/Portofolio_kort_haar.jpeg" alt="Profile" class="about-image">
+                    <div class="about-circle-decoration"></div>
+                </div>
+
+                <div class="about-content">
+                    <h2>Over Mij</h2>
+                    <p class="about-text">
+                        Ik ben Dannii, HBO-ICT student met een grote passie voor UI/UX, design thinking en het bouwen
+                        van interactieve digitale ervaringen. Ik hou ervan om techniek en creativiteit te combineren —
+                        van het analyseren van een probleem tot het ontwerpen van een visueel sterk en logisch kloppend
+                        prototype.
+                    </p>
+
+                    <p class="about-text">
+                        In mijn projecten zoek ik altijd naar balans tussen functionaliteit, gebruiksvriendelijkheid en
+                        esthetiek. Of ik nu werk aan een webapp, of een interactieve ervaring: ik wil dat het
+                        klopt, toegankelijk is en écht impact maakt op de gebruiker. Ik blijf mezelf uitdagen om beter
+                        te
+                        worden in zowel mijn technische skills als mijn ontwerpkeuzes.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Html</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">UI/UX Design</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i data-lucide="code-2"></i>
+                    </div>
+                    <h3>Development</h3>
+                    <p>Ik bouw interactieve webapplicaties van concept tot werkend prototype, met focus op structuur,
+                        logica en performance.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i data-lucide="palette"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p>UI/UX design waarbij gebruiksvriendelijkheid, visuele hiërarchie en toegankelijkheid altijd
+                        centraal staan.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i data-lucide="lightbulb"></i>
+                    </div>
+                    <h3>Innovatie</h3>
+                    <p>Ik vertaal complexe vraagstukken naar creatieve, doordachte oplossingen met behulp van design
+                        thinking.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3>Samenwerking</h3>
+                    <p>Sterk in samenwerken binnen multidisciplinaire teams, met heldere communicatie richting
+                        stakeholders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mijn Projecten</h2>
+                <p class="section-subtitle">Een selectie van projecten waar ik aan gewerkt heb</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons" id="filterButtons">
+                <button class="filter-btn active" data-category="All">All</button>
+                <button class="filter-btn" data-category="Web Development">Web Development</button>
+                <button class="filter-btn" data-category="App Development">App Development</button>
+                <button class="filter-btn" data-category="Data Visualization">Data Visualization</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid" id="projectsGrid"></div>
+
+            <div class="no-projects" id="noProjects" style="display: none;">
+                <p>Geen projecten gevonden in deze categorie.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="section-header">
+                    <h2>Neem Contact Op</h2>
+                    <p class="section-subtitle">Heb je een project in gedachten of wil je gewoon kennismaken? Stuur me
+                        een bericht!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Naam</label>
+                                <input type="text" id="name" name="name" required placeholder="Jouw naam">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="jouw@email.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Bericht</label>
+                                <textarea id="message" name="message" rows="5" required
+                                    placeholder="Vertel me over je project..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-submit">
+                                <i data-lucide="send"></i>
+                                <span>Verstuur Bericht</span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-box">
+                            <h3>Laten we samenwerken!</h3>
+                            <p>
+                                Ik ben altijd geïnteresseerd in nieuwe uitdagingen en samenwerkingen. Of je nu een
+                                specifiek project hebt of gewoon wilt kennismaken, ik hoor graag van je.
+                            </p>
+                            <p>
+                                Ik streef ernaar om binnen 24 uur te reageren op alle berichten.
+                            </p>
+                        </div>
+
+                        <div class="social-links">
+                            <h3>Vind me online</h3>
+                            <a href="mailto:danniiverweij03@gmail.com" class="social-link">
+                                <div class="social-icon">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <span>Email</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/dannii-verweij-b7b24b257/" target="_blank"
+                                rel="noopener noreferrer" class="social-link">
+                                <div class="social-icon">
+                                    <i data-lucide="linkedin"></i>
+                                </div>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/danji45" target="_blank" rel="noopener noreferrer"
+                                class="social-link">
+                                <div class="social-icon">
+                                    <i data-lucide="github"></i>
+                                </div>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p class="footer-text">
+                Gemaakt door Dannii Verweij
+            </p>
+            <p class="footer-copyright">
+                © 2026 - Alle rechten voorbehouden
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

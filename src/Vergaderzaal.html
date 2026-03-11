@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vergaderruimte | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="container nav">
+      <a href="index.html#home" class="logo">Portfolio</a>
+      <button id="themeToggle">🌙</button>
+
+      <ul class="nav-menu">
+        <li><a href="index.html#home" class="nav-link">Home</a></li>
+        <li><a href="index.html#about" class="nav-link">Over Mij</a></li>
+        <li><a href="index.html#projects" class="nav-link">Projecten</a></li>
+        <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <i data-lucide="menu" id="menuIcon"></i>
+        <i data-lucide="x" id="closeIcon" style="display: none;"></i>
+      </button>
+    </nav>
+
+    <ul class="mobile-nav" id="mobileNav">
+      <li><a href="index.html#home" class="nav-link">Home</a></li>
+      <li><a href="index.html#about" class="nav-link">Over Mij</a></li>
+      <li><a href="index.html#projects" class="nav-link">Projecten</a></li>
+      <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Project Hero -->
+  <section class="project-detail-hero">
+    <div class="container project-detail-hero-content">
+      <a href="../index.html" class="back-link">
+        <i data-lucide="arrow-left"></i>
+        <span>Terug naar projecten</span>
+      </a>
+
+      <div class="project-detail-header">
+        <div class="project-detail-text">
+          <span class="detail-category">Mobile App Design</span>
+          <h1>Vergaderruimte reserveren</h1>
+          <p class="project-detail-intro">
+            Een gebruiksvriendelijke mobiele app voor het reserveren van een vergaderruimte.
+          </p>
+
+          <div class="project-detail-tags">
+            <span class="project-tag">Figma</span>
+            <span class="project-tag">UI/ UX</span>
+            <span class="project-tag">Mobile</span>
+          </div>
+        </div>
+
+        <div class="project-detail-image-box">
+          <img src="./img/Schreenshot_vergaderruimte.png" alt="Screenshot van de vergaderapp"
+            class="project-detail-image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Content -->
+  <section class="project-detail-section">
+    <div class="container">
+      <div class="project-detail-grid">
+        <div class="project-main-content">
+
+          <div class="detail-card">
+            <h2>Over dit project</h2>
+            <p>
+              Voor dit project heb ik gewerkt aan het ontwerpen van een mobiele applicatie,
+              die gebruikt kan worden voor het reserveren en beheren van vergaderruimtes. Hierbij stonden
+              gebruiksvriendelijkheid en efficiëntie centraal. Het doel was om een
+              applicatie te ontwikkelen waarmee medewerkers eenvoudig beschikbare
+              vergaderruimtes kunnen vinden en reserveren.
+            </p>
+
+            <p>
+              De focus lag op een overzichtelijke interface, een duidelijk reserveringsproces
+              en een systeem dat snel inzicht geeft in de beschikbaarheid van ruimtes.
+              Daarnaast is gekeken naar hoe gebruikers eenvoudig een ruimte kunnen
+              reserveren, wijzigen of annuleren, zodat vergaderruimtes optimaal
+              worden benut en frustraties door dubbele of ongebruikte reserveringen
+              worden voorkomen.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h2>Mijn rol</h2>
+            <p>
+              Binnen dit project heb ik gewerkt aan zowel het ontwerp als de technische
+              uitwerking van de applicatie. Ik heb gekeken naar de gebruikersflow,
+              de structuur van de schermen en de visuele vormgeving van de interface.
+            </p>
+
+            <p>
+              Daarnaast heb ik nagedacht over hoe gebruikers eenvoudig een vergaderruimte
+              kunnen zoeken, reserveren en beheren. Hierbij stond een duidelijke en
+              intuïtieve interactie centraal, zodat medewerkers snel kunnen zien welke
+              ruimtes beschikbaar zijn en zonder moeite een reservering kunnen maken
+              of aanpassen.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h2>User flow</h2>
+            <p>
+              De gebruikersflow is ontworpen om zo kort en duidelijk mogelijk te blijven.
+              De gebruiker opent de app, bekijkt direct welke ruimtes beschikbaar zijn,
+              selecteert een ruimte en reserveert deze tijdelijk om er direct naartoe te gaan.
+              Daarna ontvangt de gebruiker bevestiging dat de ruimte vaststaat.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h2>Ontwerpproces</h2>
+            <p>
+              Het ontwerp is gestart met low-fidelity wireframes om de structuur, schermindeling
+              en navigatie van de applicatie te bepalen. In deze fase lag de focus op duidelijkheid,
+              eenvoud en een logische gebruikersroute.
+            </p>
+            <p>
+              Daarna is het concept verder uitgewerkt tot een high-fidelity prototype in Figma,
+              waarin kleurgebruik, typografie en visuele hiërarchie verder zijn verfijnd.
+            </p>
+
+            <img src="./img/Screenshot_figma_vergaderruimte.png" alt="Wireframes van de vergaderapp"
+              class="design-process-image">
+          </div>
+
+          <div class="detail-card">
+            <h2>Testen en iteraties</h2>
+            <p>
+              Tijdens het testen van het prototype is gekeken of gebruikers snel konden begrijpen
+              welke ruimtes beschikbaar waren en hoe zij een reservering konden maken. Uit de
+              feedback bleek dat belangrijke informatie direct zichtbaar moest zijn en dat
+              gebruikers zo min mogelijk stappen wilden doorlopen.
+            </p>
+            <p>
+              Op basis van deze bevindingen is het ontwerp aangepast door beschikbare ruimtes
+              prominenter weer te geven en belangrijke acties duidelijker in de interface te plaatsen.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h2>Belangrijkste functionaliteiten</h2>
+            <ul class="detail-list">
+              <li>Overzicht van beschikbare vergaderruimtes</li>
+              <li>Zoek- en filterfunctie op capaciteit en faciliteiten</li>
+              <li>Reserveren, wijzigen en annuleren van vergaderruimtes</li>
+              <li>Realtime inzicht in beschikbaarheid van ruimtes</li>
+              <li>Beheer van reserveringen en vergaderruimtes</li>
+            </ul>
+          </div>
+
+          <div class="detail-card">
+            <h2>Uitdagingen & leerpunten</h2>
+            <p>
+              Een belangrijke uitdaging binnen dit project was het ontwerpen van een
+              interface die snel en duidelijk inzicht geeft in de beschikbaarheid van
+              vergaderruimtes. Gebruikers moeten in één oogopslag kunnen zien welke
+              ruimtes vrij zijn en eenvoudig een reservering kunnen maken of aanpassen.
+            </p>
+
+            <p>
+              Tijdens het ontwerpproces heb ik geleerd hoe belangrijk een duidelijke
+              visuele hiërarchie en eenvoudige navigatie zijn. Door informatie logisch
+              te structureren en belangrijke acties duidelijk zichtbaar te maken,
+              wordt de applicatie intuïtiever en kunnen gebruikers sneller hun doel
+              bereiken.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h2>Eindresultaat</h2>
+            <p>
+              Het eindresultaat is een interactief prototype van een mobiele applicatie waarmee
+              medewerkers snel beschikbare vergaderruimtes kunnen vinden en tijdelijk reserveren.
+              Het ontwerp is uitgewerkt in Figma en laat de belangrijkste gebruikersflows en
+              interacties zien.
+            </p>
+            <a href="https://www.figma.com/site/GCq2YktxQrDtl1kCw4NczQ/High-fidelity-2?node-id=1-103&t=dD5vn8ftwiJHYylq-0"
+              class="project-link" target="_blank">Bekijk het Figma prototype</a>
+          </div>
+
+          <div class="detail-card">
+            <h2>Reflectie</h2>
+            <p>
+              Tijdens dit project heb ik ervaren hoe belangrijk het is om een probleem
+              vanuit de gebruiker te benaderen. Het ontwerpen van een applicatie voor
+              vergaderruimtes liet zien dat kleine inefficiënties, zoals onduidelijkheid
+              over beschikbare ruimtes, in de praktijk veel frustratie kunnen veroorzaken.
+              Door de gebruikersflow zo eenvoudig mogelijk te maken, kon de applicatie
+              sneller en intuïtiever worden gebruikt.
+            </p>
+
+            <p>
+              Daarnaast heb ik geleerd hoe belangrijk het is om informatie duidelijk te
+              structureren binnen een interface. Gebruikers moeten in één oogopslag
+              kunnen zien welke ruimtes beschikbaar zijn en welke acties zij kunnen
+              uitvoeren. Door te werken met duidelijke hiërarchie en logische
+              navigatie-elementen werd het ontwerp overzichtelijker en gebruiksvriendelijker.
+            </p>
+
+            <p>
+              Met meer tijd zou ik het concept verder willen uitwerken door het prototype
+              uitgebreider te testen met echte gebruikers. Op basis van deze feedback
+              zouden extra iteraties kunnen worden gemaakt om de gebruikerservaring nog
+              verder te verbeteren.
+            </p>
+          </div>
+        </div>
+
+        <aside class="project-sidebar">
+          <div class="detail-card">
+            <h3>Projectinfo</h3>
+            <div class="info-item">
+              <span class="info-label">Type</span>
+              <span class="info-value">Mobile app</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Rol</span>
+              <span class="info-value">Research, UI/UX Design & Prototype</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Periode</span>
+              <span class="info-value">Februari 2026</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Tools</span>
+              <span class="info-value">Figma</span>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <h3>Waarom dit project?</h3>
+            <p>
+              Dit project laat zien hoe ik design en functionaliteit combineer om een
+              praktische oplossing te ontwerpen voor een veelvoorkomend probleem op de
+              werkvloer. Door een duidelijke interface en logische gebruikersflow te
+              ontwikkelen, kunnen medewerkers snel beschikbare vergaderruimtes vinden
+              en reserveren.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h3>Probleem</h3>
+            <p>
+              Binnen organisaties komt het regelmatig voor dat vergaderruimtes bezet lijken,
+              terwijl ze in werkelijkheid niet worden gebruikt. Medewerkers verliezen hierdoor
+              tijd met zoeken naar een vrije ruimte en hebben geen snel overzicht van de actuele
+              beschikbaarheid.
+            </p>
+            <p>
+              Dit project richt zich op het ontwerpen van een mobiele applicatie die dit probleem
+              oplost door actuele beschikbaarheid inzichtelijk te maken en gebruikers tijdelijk
+              een ruimte te laten vastzetten terwijl zij ernaartoe lopen.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h3>Doelgroep</h3>
+            <p>
+              De doelgroep van deze applicatie bestaat uit medewerkers binnen organisaties
+              die regelmatig gebruikmaken van vergaderruimtes. Dit kunnen bijvoorbeeld
+              kantoormedewerkers, projectteams of andere werknemers zijn die snel een
+              beschikbare ruimte nodig hebben voor overleg of samenwerking.
+            </p>
+
+            <p>
+              Deze gebruikers hebben behoefte aan een eenvoudige en snelle manier om te
+              zien welke ruimtes beschikbaar zijn. Omdat medewerkers vaak onderweg zijn
+              naar een vergaderruimte, moet de applicatie duidelijk, mobielvriendelijk en
+              intuïtief te gebruiken zijn. Het belangrijkste doel is dat gebruikers zonder
+              veel stappen direct een beschikbare ruimte kunnen vinden en tijdelijk kunnen
+              reserveren.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h3>Doelstelling</h3>
+            <p>
+              Ontwikkel een mobiele applicatie waarmee medewerkers eenvoudig
+              beschikbare ruimtes kunnen vinden en tijdelijk kunnen reserveren om
+              daar direct naartoe te gaan. Dit is géén klassiek reserveringssysteem:
+              reserveren is slechts een mechanisme om onderweg naar de ruimte te
+              voorkomen dat iemand anders deze bezet. De beschikbaarheid wordt
+              uitsluitend bepaald door sensordata, niet door agendaplanning.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h3>Requirements</h3>
+            <ul class="detail-list">
+              <li>Gebruikers moeten snel kunnen zien welke vergaderruimtes beschikbaar zijn.</li>
+              <li>De interface moet overzichtelijk en eenvoudig te begrijpen zijn, zodat gebruikers zonder uitleg een ruimte kunnen vinden.</li>
+              <li>Gebruikers moeten een ruimte tijdelijk kunnen reserveren terwijl zij ernaartoe lopen.</li>
+              <li>De beschikbaarheid van ruimtes moet gebaseerd zijn op realtime informatie.</li>
+              <li>De applicatie moet geschikt zijn voor mobiel gebruik, zodat medewerkers onderweg een ruimte kunnen vinden.</li>
+              <li>Het reserveringsproces moet zo min mogelijk stappen bevatten om tijd te besparen.</li>
+            </ul>
+          </div>
+
+          <div class="detail-card">
+            <h3>Belangrijkste ontwerpkeuzes</h3>
+            <ul class="detail-list">
+              <li>
+                <strong>Focus op beschikbare ruimtes</strong> – De interface laat direct
+                zien welke ruimtes beschikbaar zijn, zodat gebruikers snel een keuze
+                kunnen maken zonder eerst door meerdere schermen te navigeren.
+              </li>
+
+              <li>
+                <strong>Eenvoudige en korte gebruikersflow</strong> – Het reserveren van
+                een ruimte bestaat uit zo min mogelijk stappen. Hierdoor kunnen
+                medewerkers snel een ruimte vastzetten terwijl zij ernaartoe lopen.
+              </li>
+
+              <li>
+                <strong>Duidelijke status van ruimtes</strong> – De status van een
+                vergaderruimte (beschikbaar, bezet of gereserveerd) wordt visueel
+                duidelijk weergegeven, zodat gebruikers in één oogopslag de situatie
+                kunnen begrijpen.
+              </li>
+
+              <li>
+                <strong>Mobielvriendelijk ontwerp</strong> – Omdat gebruikers de
+                applicatie vaak onderweg gebruiken, is de interface ontworpen met
+                duidelijke knoppen en een overzichtelijke layout die goed werkt
+                op kleinere schermen.
+              </li>
+            </ul>
+          </div>
+
+          <div class="detail-card">
+            <h3>Interactiestates</h3>
+            <p>
+              In de vergaderapp spelen interactiestates een belangrijke rol,
+              omdat gebruikers snel moeten kunnen begrijpen wat de status van
+              een vergaderruimte is. Daarom wordt in de interface duidelijk
+              aangegeven of een ruimte beschikbaar, bezet of tijdelijk
+              gereserveerd is.
+            </p>
+
+            <p>
+              Wanneer een gebruiker een ruimte selecteert, ontvangt deze
+              visuele feedback dat de reservering succesvol is geplaatst.
+              Hierdoor weet de gebruiker dat de ruimte tijdelijk vaststaat
+              terwijl hij of zij ernaartoe loopt.
+            </p>
+
+            <p>
+              In een verdere uitwerking van de applicatie zouden extra states
+              kunnen worden toegevoegd, zoals een melding wanneer een ruimte
+              net door iemand anders is gereserveerd of wanneer er tijdelijk
+              geen ruimtes beschikbaar zijn. Deze feedback helpt gebruikers
+              om beter te begrijpen wat er in de applicatie gebeurt.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h3>Toegankelijkheid</h3>
+            <p>
+              Bij het ontwerpen van de applicatie is rekening gehouden met
+              toegankelijkheid en gebruiksvriendelijkheid. Omdat medewerkers de
+              applicatie vaak snel en onderweg gebruiken, is gekozen voor een
+              duidelijke visuele hiërarchie en een overzichtelijke interface.
+              Hierdoor kunnen gebruikers in één oogopslag zien welke
+              vergaderruimtes beschikbaar zijn.
+            </p>
+
+            <p>
+              Daarnaast is gebruikgemaakt van duidelijke contrasten, herkenbare
+              iconen en logische navigatie. Belangrijke acties, zoals het
+              reserveren of bekijken van een ruimte, zijn visueel duidelijk
+              zichtbaar gemaakt zodat gebruikers deze snel kunnen vinden.
+            </p>
+
+            <p>
+              De applicatie is ontworpen met mobiel gebruik in gedachten, waardoor
+              knoppen groot genoeg zijn en informatie goed leesbaar blijft op
+              kleinere schermen. Dit zorgt ervoor dat de interface eenvoudig te
+              gebruiken is voor een brede groep gebruikers.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="footer-text">Gemaakt door Dannii Verweij</p>
+      <p class="footer-copyright">© 2026 - Alle rechten voorbehouden</p>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    function initMobileMenu() {
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const mobileNav = document.getElementById('mobileNav');
+      const menuIcon = document.getElementById('menuIcon');
+      const closeIcon = document.getElementById('closeIcon');
+
+      if (!mobileMenuBtn || !mobileNav || !menuIcon || !closeIcon) return;
+
+      const mobileLinks = mobileNav.querySelectorAll('a');
+
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileNav.classList.toggle('active');
+
+        if (mobileNav.classList.contains('active')) {
+          menuIcon.style.display = 'none';
+          closeIcon.style.display = 'block';
+        } else {
+          menuIcon.style.display = 'block';
+          closeIcon.style.display = 'none';
+        }
+      });
+
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileNav.classList.remove('active');
+          menuIcon.style.display = 'block';
+          closeIcon.style.display = 'none';
+        });
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', initMobileMenu);
+  </script>
+</body>
+
+</html>

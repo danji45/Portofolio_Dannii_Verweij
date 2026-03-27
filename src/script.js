@@ -36,6 +36,16 @@ const projects = [
     link: './src/Vergaderzaal.html',
     github: null
   },
+   {
+    id: 3,
+    title: 'Hackathon Project',
+    description: 'Een gebruiksvriendelijke mobiele app voor het reserveren van een vergaderruimte.',
+    category: 'App Development',
+    tags: ['Figma', 'UI/UX', 'Mobile', 'HTML', 'CSS', 'JavaScript'],
+    image: './src/img/Schreenshot_hackathon_inlogscherm.png',
+    link: './src/Hackathon.html',
+    github: null
+  }
 ];
 
 // Initialize Lucide Icons

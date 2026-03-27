@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Navigation Companion | Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="container nav">
+            <a href="index.html#home" class="logo">Portfolio</a>
+            <button id="themeToggle">🌙</button>
+
+            <ul class="nav-menu">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">Over Mij</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projecten</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <i data-lucide="menu" id="menuIcon"></i>
+                <i data-lucide="x" id="closeIcon" style="display: none;"></i>
+            </button>
+        </nav>
+
+        <ul class="mobile-nav" id="mobileNav">
+            <li><a href="index.html#home" class="nav-link">Home</a></li>
+            <li><a href="index.html#about" class="nav-link">Over Mij</a></li>
+            <li><a href="index.html#projects" class="nav-link">Projecten</a></li>
+            <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Project Hero -->
+    <section class="project-detail-hero">
+        <div class="container project-detail-hero-content">
+            <a href="../index.html" class="back-link">
+                <i data-lucide="arrow-left"></i>
+                <span>Terug naar projecten</span>
+            </a>
+
+            <div class="project-detail-header">
+                <div class="project-detail-text">
+                    <span class="detail-category">Hackathon / Mobile App Design</span>
+                    <h1>Campus Navigation Companion</h1>
+                    <p class="project-detail-intro">
+                        Een mobiele route-app die studenten helpt om snel hun weg te vinden op de campus.
+                    </p>
+
+                    <div class="project-detail-tags">
+                        <span class="project-tag">Figma</span>
+                        <span class="project-tag">UI/ UX</span>
+                        <span class="project-tag">Mobile</span>
+                    </div>
+                </div>
+
+                <div class="project-detail-image-box">
+                    <img src="./img/Schreenshot_hackathon_rooster.png" alt="Screenshot van de route app"
+                        class="project-detail-image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Content -->
+    <section class="project-detail-section">
+        <div class="container">
+            <div class="project-detail-grid">
+                <div class="project-main-content">
+
+                    <div class="detail-card">
+                        <h2>Over dit project</h2>
+                        <p>
+                            Voor de hackathon heb ik gewerkt aan het ontwerpen van een mobiele applicatie
+                            die studenten ondersteunt bij het navigeren over de campus. Het doel van de app
+                            was om studenten snel en eenvoudig de juiste route naar lokalen, gebouwen en
+                            andere belangrijke plekken te laten vinden.
+                        </p>
+
+                        <p>
+                            De focus lag op gebruiksvriendelijkheid, overzicht en snelheid. Studenten moeten
+                            onderweg zonder moeite kunnen zien waar zij heen moeten, hoeveel tijd de route kost
+                            en welke richting zij op moeten. Daarmee speelt de applicatie in op een herkenbaar
+                            probleem: verdwalen of te laat komen doordat gebouwen en lokalen lastig te vinden zijn.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Mijn rol</h2>
+                        <p>
+                            Binnen dit project heb ik gewerkt aan zowel het ontwerp als de visuele uitwerking
+                            van de applicatie. Ik heb nagedacht over de gebruikersflow, de opbouw van de schermen
+                            en de visuele hiërarchie binnen de interface.
+                        </p>
+
+                        <p>
+                            Daarnaast heb ik gekeken naar hoe studenten zo snel mogelijk hun bestemming kunnen
+                            invoeren, een route kunnen bekijken en extra informatie over locaties kunnen vinden.
+                            Hierbij stond een intuïtieve mobiele ervaring centraal, zodat de app direct bruikbaar
+                            is wanneer een student onderweg is naar een les of afspraak.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>User flow</h2>
+                        <p>
+                            De gebruikersflow is ontworpen om kort en logisch te blijven. De gebruiker opent de app,
+                            zoekt of selecteert een bestemming, bekijkt de voorgestelde route en volgt vervolgens de
+                            aanwijzingen naar het juiste lokaal of gebouw. Belangrijke informatie, zoals route,
+                            reistijd en locatie, wordt direct zichtbaar gemaakt.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Ontwerpproces</h2>
+                        <p>
+                            Het ontwerpproces begon met het maken van low-fidelity wireframes. In deze fase lag de
+                            focus op de basisstructuur van de app, de schermindeling en de belangrijkste interacties.
+                            Hierbij werd vooral gekeken naar eenvoud en duidelijkheid, omdat gebruikers de app vaak
+                            snel en onderweg moeten gebruiken.
+                        </p>
+                        <p>
+                            Daarna is het concept verder uitgewerkt tot een high-fidelity prototype in Figma. In
+                            deze fase zijn kleurgebruik, typografie en visuele details toegevoegd om de app een
+                            herkenbare en consistente uitstraling te geven.
+                        </p>
+
+                        <img src="./img/Schreenshot_hackathon_figma.png" alt="Wireframes van de route app"
+                            class="design-process-image">
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Testen en iteraties</h2>
+                        <p>
+                            Tijdens het testen is gekeken of gebruikers snel konden begrijpen hoe zij een bestemming
+                            konden vinden en hoe duidelijk de route werd weergegeven. Uit feedback bleek dat studenten
+                            vooral behoefte hebben aan directe informatie en een eenvoudige interface zonder onnodige
+                            stappen.
+                        </p>
+                        <p>
+                            Op basis van deze bevindingen is het ontwerp aangepast door de zoekfunctie duidelijker te
+                            maken,
+                            route-informatie prominenter te tonen en belangrijke knoppen beter zichtbaar in de interface
+                            te plaatsen.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Belangrijkste functionaliteiten</h2>
+                        <ul class="detail-list">
+                            <li>Zoeken naar gebouwen, lokalen en andere campuslocaties</li>
+                            <li>Duidelijke routeweergave naar de gekozen bestemming</li>
+                            <li>Inzicht in reistijd en afstand</li>
+                            <li>Mobielvriendelijke interface voor gebruik onderweg</li>
+                            <li>Overzicht van belangrijke locaties op de campus</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Uitdagingen & leerpunten</h2>
+                        <p>
+                            Een belangrijke uitdaging binnen dit project was het vertalen van een routeprobleem naar
+                            een duidelijke mobiele interface. Gebruikers willen onderweg snel begrijpen waar zij heen
+                            moeten, zonder te veel informatie tegelijk te zien.
+                        </p>
+
+                        <p>
+                            Tijdens het ontwerpproces heb ik geleerd hoe belangrijk het is om informatie te prioriteren.
+                            Niet alles hoeft tegelijk in beeld te staan. Door te werken met een duidelijke hiërarchie,
+                            overzichtelijke schermen en logische interacties wordt de app rustiger en
+                            gebruiksvriendelijker.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Eindresultaat</h2>
+                        <p>
+                            Het eindresultaat is een interactief prototype van een mobiele applicatie die studenten
+                            helpt
+                            om sneller hun weg te vinden op de campus. Het ontwerp is uitgewerkt in Figma en laat de
+                            belangrijkste gebruikersflows en schermen van de route-app zien.
+                        </p>
+                        <a href="https://www.figma.com/design/z6kuaXnNkLJRXiffyyJ7Qw/CNC-low---high-fidelity?node-id=1-176&p=f&t=GoJoVCniiimN7Vub-0"
+                            class="project-link" target="_blank">Bekijk het Figma prototype</a>
+                        <a href="https://yehoshuaa.github.io/Hackaton/" class="project-link" target="_blank">Bekijk de live demo</a>
+                        <p>Gebruikersnaam: jeremy@windesheim.nl</p>
+                        <p>Wachtwoord: Hallo123</p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Reflectie</h2>
+                        <p>
+                            Tijdens dit project heb ik ervaren hoe belangrijk het is om een alledaags probleem vanuit de
+                            gebruiker te bekijken. Voor studenten lijkt het misschien klein om een lokaal niet meteen te
+                            kunnen
+                            vinden, maar in de praktijk kan dit zorgen voor stress, verwarring en te laat komen.
+                        </p>
+
+                        <p>
+                            Daarnaast heb ik geleerd hoe belangrijk eenvoud is in een mobiele interface. Omdat
+                            gebruikers deze
+                            app onderweg gebruiken, moet de informatie direct duidelijk zijn en moeten acties
+                            vanzelfsprekend aanvoelen.
+                            Door te focussen op een korte gebruikersflow en sterke visuele hiërarchie werd het ontwerp
+                            overzichtelijker.
+                        </p>
+
+                        <p>
+                            Met meer tijd zou ik het concept verder uitwerken met uitgebreidere gebruikerstests en
+                            mogelijk extra
+                            functies toevoegen, zoals live locatie, verdiepingsoverzichten of persoonlijke
+                            route-aanbevelingen.
+                        </p>
+                    </div>
+                </div>
+
+                <aside class="project-sidebar">
+                    <div class="detail-card">
+                        <h3>Projectinfo</h3>
+                        <div class="info-item">
+                            <span class="info-label">Type</span>
+                            <span class="info-value">Mobile app</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Rol</span>
+                            <span class="info-value">Research, UI/UX Design & Prototype</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Periode</span>
+                            <span class="info-value">Maart 2026</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Tools</span>
+                            <span class="info-value">Figma</span>
+                        </div>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Waarom dit project?</h3>
+                        <p>
+                            Dit project laat zien hoe ik design inzet om een praktisch probleem op te lossen dat veel
+                            studenten herkennen. Door een duidelijke en gebruiksvriendelijke route-app te ontwerpen,
+                            wordt het makkelijker om snel de juiste bestemming op de campus te vinden.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Probleem</h3>
+                        <p>
+                            Studenten kunnen moeite hebben met het vinden van lokalen, gebouwen of andere voorzieningen
+                            op de campus. Zeker op een nieuwe locatie of bij een druk rooster kan dit zorgen voor
+                            verwarring,
+                            tijdverlies en stress.
+                        </p>
+                        <p>
+                            Dit project richt zich op het ontwerpen van een mobiele applicatie die dit probleem oplost
+                            door studenten duidelijke routebegeleiding en snelle toegang tot campusinformatie te bieden.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Doelgroep</h3>
+                        <p>
+                            De doelgroep van deze applicatie bestaat uit studenten die zich snel en eenvoudig over de
+                            campus
+                            willen kunnen verplaatsen. Dit zijn bijvoorbeeld eerstejaarsstudenten, studenten die les
+                            hebben
+                            in verschillende gebouwen of bezoekers die nog niet bekend zijn met de locatie.
+                        </p>
+
+                        <p>
+                            Deze gebruikers hebben behoefte aan een eenvoudige, duidelijke en mobiele oplossing. Omdat
+                            zij de
+                            app vaak onderweg gebruiken, moet de interface overzichtelijk zijn en zonder uitleg te
+                            begrijpen.
+                            Het belangrijkste doel is dat gebruikers snel hun bestemming kunnen vinden zonder onnodige
+                            frustratie.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Doelstelling</h3>
+                        <p>
+                            Ontwikkel een mobiele applicatie waarmee studenten eenvoudig hun bestemming op de campus
+                            kunnen vinden.
+                            De app moet snel route-informatie tonen, duidelijk inzicht geven in locaties en geschikt
+                            zijn voor gebruik
+                            onderweg, zodat studenten zonder verwarring hun lokaal of gebouw kunnen bereiken.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Requirements</h3>
+                        <ul class="detail-list">
+                            <li>Gebruikers moeten snel een gebouw, lokaal of campuslocatie kunnen vinden.</li>
+                            <li>De interface moet overzichtelijk en eenvoudig te begrijpen zijn.</li>
+                            <li>De route naar de bestemming moet duidelijk weergegeven worden.</li>
+                            <li>Belangrijke informatie moet direct zichtbaar zijn op mobiel.</li>
+                            <li>De applicatie moet geschikt zijn voor gebruik onderweg.</li>
+                            <li>Het vinden van een bestemming moet zo min mogelijk stappen bevatten.</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Belangrijkste ontwerpkeuzes</h3>
+                        <ul class="detail-list">
+                            <li>
+                                <strong>Focus op snelheid en duidelijkheid</strong> – Gebruikers moeten direct kunnen
+                                zien
+                                waar zij heen moeten, zonder door veel schermen te navigeren.
+                            </li>
+
+                            <li>
+                                <strong>Eenvoudige gebruikersflow</strong> – Het selecteren van een bestemming en
+                                bekijken
+                                van de route bestaat uit zo min mogelijk stappen.
+                            </li>
+
+                            <li>
+                                <strong>Duidelijke visuele hiërarchie</strong> – Belangrijke informatie, zoals locatie,
+                                route en reistijd, is visueel prominent weergegeven.
+                            </li>
+
+                            <li>
+                                <strong>Mobielvriendelijk ontwerp</strong> – Omdat de app onderweg gebruikt wordt,
+                                is gekozen voor een duidelijke layout, grote knoppen en goed leesbare informatie.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Interactiestates</h3>
+                        <p>
+                            In de route-app spelen interactiestates een belangrijke rol, omdat gebruikers snel moeten
+                            kunnen
+                            begrijpen wat er gebeurt wanneer zij een bestemming selecteren of een route bekijken.
+                        </p>
+
+                        <p>
+                            Daarom is visuele feedback belangrijk, bijvoorbeeld wanneer een locatie is geselecteerd,
+                            een route actief wordt weergegeven of een gebruiker teruggaat naar het overzicht.
+                        </p>
+
+                        <p>
+                            In een verdere uitwerking van de applicatie zouden extra states kunnen worden toegevoegd,
+                            zoals een melding wanneer een route niet beschikbaar is of wanneer een gebruiker zich op de
+                            verkeerde verdieping bevindt. Dit helpt om de ervaring nog duidelijker en
+                            gebruiksvriendelijker te maken.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Toegankelijkheid</h3>
+                        <p>
+                            Bij het ontwerpen van de applicatie is rekening gehouden met toegankelijkheid en
+                            gebruiksgemak.
+                            Omdat studenten de app vaak snel gebruiken terwijl zij lopen of onderweg zijn, is gekozen
+                            voor
+                            een duidelijke structuur en sterke visuele hiërarchie.
+                        </p>
+
+                        <p>
+                            Daarnaast is gebruikgemaakt van duidelijke contrasten, herkenbare iconen en goed leesbare
+                            typografie.
+                            Belangrijke acties, zoals het zoeken van een bestemming of starten van een route, zijn
+                            duidelijk zichtbaar gemaakt.
+                        </p>
+
+                        <p>
+                            De applicatie is ontworpen voor mobiel gebruik, waardoor knoppen groot genoeg zijn en
+                            informatie
+                            overzichtelijk blijft op kleinere schermen. Dit zorgt ervoor dat de interface bruikbaar is
+                            voor
+                            een brede groep gebruikers.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p class="footer-text">Gemaakt door Dannii Verweij</p>
+            <p class="footer-copyright">© 2026 - Alle rechten voorbehouden</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        function initMobileMenu() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileNav = document.getElementById('mobileNav');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            if (!mobileMenuBtn || !mobileNav || !menuIcon || !closeIcon) return;
+
+            const mobileLinks = mobileNav.querySelectorAll('a');
+
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileNav.classList.toggle('active');
+
+                if (mobileNav.classList.contains('active')) {
+                    menuIcon.style.display = 'none';
+                    closeIcon.style.display = 'block';
+                } else {
+                    menuIcon.style.display = 'block';
+                    closeIcon.style.display = 'none';
+                }
+            });
+
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileNav.classList.remove('active');
+                    menuIcon.style.display = 'block';
+                    closeIcon.style.display = 'none';
+                });
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', initMobileMenu);
+    </script>
+</body>
+
+</html>

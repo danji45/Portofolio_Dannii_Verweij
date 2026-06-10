@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Disney Friend | Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="container nav">
+            <a href="../index.html" class="logo">Portfolio</a>
+            <button id="themeToggle">🌙</button>
+
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../index.html#about" class="nav-link">Over Mij</a></li>
+                <li><a href="../index.html#projects" class="nav-link">Projecten</a></li>
+                <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <i data-lucide="menu" id="menuIcon"></i>
+                <i data-lucide="x" id="closeIcon" style="display: none;"></i>
+            </button>
+        </nav>
+
+        <ul class="mobile-nav" id="mobileNav">
+            <li><a href="../index.html" class="nav-link">Home</a></li>
+            <li><a href="../index.html#about" class="nav-link">Over Mij</a></li>
+            <li><a href="../index.html#projects" class="nav-link">Projecten</a></li>
+            <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Project Hero -->
+    <section class="project-detail-hero">
+        <div class="container project-detail-hero-content">
+            <a href="../index.html" class="back-link">
+                <i data-lucide="arrow-left"></i>
+                <span>Terug naar projecten</span>
+            </a>
+
+            <div class="project-detail-header">
+                <div class="project-detail-text">
+                    <span class="detail-category">AR / Mobile Experience / UI Design</span>
+                    <h1>My Disney Friend</h1>
+                    <p class="project-detail-intro">
+                        Een interactieve AR-app waarin gebruikers een magisch karakter in hun eigen omgeving kunnen plaatsen,
+                        ermee kunnen praten en een vriendschapsniveau kunnen opbouwen.
+                    </p>
+
+                    <div class="project-detail-tags">
+                        <span class="project-tag">HTML</span>
+                        <span class="project-tag">CSS</span>
+                        <span class="project-tag">JavaScript</span>
+                        <span class="project-tag">AR</span>
+                        <span class="project-tag">Figma</span>
+                    </div>
+                </div>
+
+                <div class="project-detail-image-box">
+                    <img src="./img/my_disney_friend.png" alt="Screenshot van My Disney Friend"
+                        class="project-detail-image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Content -->
+    <section class="project-detail-section">
+        <div class="container">
+            <div class="project-detail-grid">
+                <div class="project-main-content">
+
+                    <div class="detail-card">
+                        <h2>Over dit project</h2>
+                        <p>
+                            My Disney Friend is een interactieve mobiele AR-ervaring waarbij gebruikers een karakter
+                            kunnen kiezen en dit karakter tot leven kunnen brengen in hun eigen omgeving. Het project
+                            is ontstaan vanuit het idee om Augmented Reality toegankelijk, speels en herkenbaar te maken
+                            voor een jonge doelgroep.
+                        </p>
+
+                        <p>
+                            De gebruiker begint op een startscherm, kiest daarna een karakter en komt vervolgens in een
+                            AR-omgeving terecht. Daar kan het karakter geplaatst worden in de ruimte en kan de gebruiker
+                            ermee interacteren door middel van tekstballonnen, knoppen en een vriendschapssysteem met hartjes.
+                        </p>
+
+                        <p>
+                            De focus van dit project lag niet alleen op het technische AR-gedeelte, maar ook op de beleving.
+                            De app moest voelen als een vrolijke, magische en persoonlijke ervaring waarin de gebruiker
+                            echt een band kan opbouwen met het gekozen karakter.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Mijn rol</h2>
+                        <p>
+                            Binnen dit project heb ik zelfstandig gewerkt aan het concept, de uitwerking van de schermen,
+                            het ontwerp in Figma en de realisatie in HTML, CSS en JavaScript. Ik heb nagedacht over de
+                            volledige gebruikersflow, van het openen van de app tot het plaatsen en gebruiken van het karakter
+                            in de AR-omgeving.
+                        </p>
+
+                        <p>
+                            Daarnaast heb ik gewerkt aan de visuele stijl van de applicatie. Hierbij heb ik gekozen voor
+                            een speelse en zachte uitstraling met lichte kleuren, duidelijke knoppen, afgeronde vormen en
+                            herkenbare interacties. Ook heb ik onderzocht hoe ik een 3D-model via webtechnieken kon tonen
+                            en hoe dit op mobiel geopend kon worden via AR.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>User flow</h2>
+                        <p>
+                            De user flow is ontworpen om eenvoudig en logisch te blijven. De gebruiker opent de app,
+                            komt op het home scherm, kiest een karakter en gaat daarna naar het AR-scherm. Vervolgens
+                            wordt de omgeving gescand en kan het karakter geplaatst worden.
+                        </p>
+
+                        <p>
+                            Na het plaatsen kan de gebruiker met het karakter interacteren. Door op gespreksknoppen te
+                            klikken verschijnen er reacties in een tekstwolk. Deze interacties zorgen ervoor dat het
+                            vriendschapsniveau stijgt. Op deze manier wordt de gebruiker gestimuleerd om terug te komen
+                            en verder te spelen.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Ontwerpproces</h2>
+                        <p>
+                            Het ontwerpproces begon met het onderzoeken van bestaande AR-ervaringen en apps waarin
+                            digitale figuren of speelse interacties centraal staan. Ik heb gekeken naar hoe zulke apps
+                            gebruikers begeleiden, hoe ze spanning opbouwen en hoe ze interactie duidelijk maken.
+                        </p>
+
+                        <p>
+                            Daarna heb ik de schermen stap voor stap uitgewerkt. Eerst heb ik gekeken naar de basisflow:
+                            startscherm, home scherm, karakter kiezen, AR scannen en interactie. Vervolgens heb ik deze
+                            schermen visueel verder uitgewerkt in een stijl die past bij een jonge doelgroep.
+                        </p>
+
+                        <p>
+                            In de high-fidelity uitwerking heb ik extra aandacht besteed aan sfeer, typografie,
+                            kleurgebruik en visuele feedback. De app moest direct duidelijk zijn, maar ook aantrekkelijk
+                            genoeg voelen om verder te ontdekken.
+                        </p>
+
+                        <img src="./img/LowFid_Disney.png" alt="Figma ontwerp van My Disney Friend"
+                            class="design-process-image">
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Realisatie</h2>
+                        <p>
+                            Voor de realisatie heb ik gewerkt met HTML, CSS en JavaScript. De verschillende schermen zijn
+                            als losse pagina’s opgebouwd, zodat de navigatie duidelijk blijft. Denk hierbij aan een
+                            startpagina, homepagina, karakterselectie, vriendschapspagina en AR-pagina.
+                        </p>
+
+                        <p>
+                            Voor het tonen van het 3D-model heb ik gebruikgemaakt van een webviewer waarmee een GLB-model
+                            zichtbaar gemaakt kan worden. Hierdoor kon het karakter in de browser getoond worden en op
+                            mobiel worden geopend in een AR-weergave.
+                        </p>
+
+                        <p>
+                            Daarnaast heb ik JavaScript gebruikt voor de interactie met het karakter. De gebruiker kan
+                            knoppen aanklikken, waarna de tekst in de speech bubble verandert en het vriendschapsniveau
+                            wordt bijgewerkt met hartjes.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Testen en iteraties</h2>
+                        <p>
+                            Tijdens het testen heb ik vooral gekeken of de schermen logisch op elkaar aansloten en of
+                            de gebruiker snel begreep wat de bedoeling was. De navigatie moest duidelijk zijn, omdat de
+                            app meerdere stappen bevat: kiezen, scannen, plaatsen en interacteren.
+                        </p>
+
+                        <p>
+                            Een belangrijk testpunt was de AR-weergave. In de browser werkte het tonen van het model goed,
+                            maar op mobiel bleek de plaatsing en oriëntatie van het model lastiger. Het model stond niet
+                            altijd direct goed naar de gebruiker toe. Daarom heb ik aanpassingen gedaan aan de schaal,
+                            camera-instellingen en rotatie van het model.
+                        </p>
+
+                        <p>
+                            Ook heb ik de interface aangepast op basis van gebruiksgemak. Knoppen zijn duidelijker gemaakt,
+                            de tekstwolken zijn beter zichtbaar geplaatst en de interactie met hartjes is toegevoegd om
+                            de app meer feedback en speelsheid te geven.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Belangrijkste functionaliteiten</h2>
+                        <ul class="detail-list">
+                            <li>Startscherm met duidelijke introductie van de app</li>
+                            <li>Home scherm met toegang tot karakterkeuze en vriendschappen</li>
+                            <li>Karakterselectie met visuele kaarten</li>
+                            <li>AR-scherm waarin een 3D-karakter zichtbaar wordt</li>
+                            <li>Interacties via gesprekknoppen en tekstwolken</li>
+                            <li>Vriendschapssysteem met hartjes</li>
+                            <li>Overzicht van opgebouwde vriendschappen</li>
+                            <li>Mobielvriendelijke interface</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Uitdagingen & leerpunten</h2>
+                        <p>
+                            Een grote uitdaging binnen dit project was het combineren van een speelse interface met een
+                            technische AR-uitwerking. Het ontwerpen van de schermen was goed te sturen, maar het werken
+                            met een 3D-model en mobiele AR bracht technische beperkingen met zich mee.
+                        </p>
+
+                        <p>
+                            Vooral de oriëntatie van het model was een leerpunt. In de normale website kon het model goed
+                            draaien en bekeken worden, maar zodra het model via de mobiele AR-weergave geopend werd, stond
+                            het niet altijd op de juiste manier naar de gebruiker gericht. Hierdoor heb ik geleerd dat AR
+                            niet alleen om het ontwerp gaat, maar ook om modelpositie, schaal, rotatie en devicegedrag.
+                        </p>
+
+                        <p>
+                            Daarnaast heb ik geleerd hoe belangrijk feedback is in een interactieve app. Door hartjes,
+                            tekstreacties en duidelijke knoppen toe te voegen, voelt de ervaring actiever en begrijpelijker
+                            voor de gebruiker.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Eindresultaat</h2>
+                        <p>
+                            Het eindresultaat is een werkend prototype van een mobiele AR-app waarin gebruikers een karakter
+                            kunnen kiezen, een AR-omgeving kunnen openen en kunnen interacteren met het karakter. De app
+                            bevat meerdere schermen, een duidelijke navigatie, een vriendschapssysteem en een visuele
+                            stijl die past bij een magische en jonge doelgroep.
+                        </p>
+
+                        <p>
+                            Hoewel de AR-functionaliteit nog beperkingen heeft, laat het prototype goed zien hoe het concept
+                            zou kunnen werken. De belangrijkste flow is uitgewerkt en de interactie met het karakter maakt
+                            duidelijk wat de beleving van de app moet worden.
+                        </p>
+
+                        <a href="JOUW_FIGMA_LINK_HIER" class="project-link" target="_blank">Bekijk het Figma prototype</a>
+                        <a href="JOUW_LIVE_DEMO_LINK_HIER" class="project-link" target="_blank">Bekijk de live demo</a>
+                    </div>
+
+                    <div class="detail-card">
+                        <h2>Reflectie</h2>
+                        <p>
+                            Tijdens dit project heb ik geleerd hoe belangrijk het is om een technisch concept begrijpelijk
+                            en aantrekkelijk te maken voor de gebruiker. AR kan snel ingewikkeld worden, maar door de flow
+                            klein en duidelijk te houden blijft de ervaring toegankelijk.
+                        </p>
+
+                        <p>
+                            Ik vond het vooral interessant om te werken aan de combinatie van ontwerp, interactie en
+                            techniek. Het project ging niet alleen over hoe de app eruitziet, maar ook over hoe de gebruiker
+                            zich voelt tijdens het gebruiken van de app. Door het vriendschapssysteem toe te voegen kreeg
+                            de app meer persoonlijkheid en werd de interactie minder statisch.
+                        </p>
+
+                        <p>
+                            Met meer tijd zou ik het AR-gedeelte verder willen verbeteren. Ik zou het model beter willen
+                            positioneren, meer animaties toevoegen en extra interacties maken, zoals bewegen, volgen of
+                            reageren op de omgeving. Ook zou ik uitgebreider willen testen met gebruikers om te zien of
+                            de flow duidelijk genoeg is en of de app echt uitnodigt om vaker te gebruiken.
+                        </p>
+                    </div>
+                </div>
+
+                <aside class="project-sidebar">
+                    <div class="detail-card">
+                        <h3>Projectinfo</h3>
+                        <div class="info-item">
+                            <span class="info-label">Type</span>
+                            <span class="info-value">AR mobile prototype</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Rol</span>
+                            <span class="info-value">Concept, UI/UX Design, Prototype & Front-end</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Periode</span>
+                            <span class="info-value">2026</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Tools</span>
+                            <span class="info-value">Figma, HTML, CSS, JavaScript, Blender</span>
+                        </div>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Waarom dit project?</h3>
+                        <p>
+                            Dit project laat zien hoe ik ontwerp en techniek kan combineren in een interactieve ervaring.
+                            Door AR te gebruiken wordt de digitale wereld gekoppeld aan de echte omgeving van de gebruiker.
+                            Hierdoor voelt de app speelser en persoonlijker dan een normale mobiele applicatie.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Probleem</h3>
+                        <p>
+                            Veel AR-ervaringen zijn technisch interessant, maar voelen voor gebruikers niet altijd duidelijk
+                            of persoonlijk. Gebruikers weten soms niet wat ze moeten doen, waar ze moeten klikken of waarom
+                            ze terug zouden komen naar de app.
+                        </p>
+
+                        <p>
+                            My Disney Friend richt zich daarom op een eenvoudige en herkenbare AR-ervaring waarin de gebruiker
+                            stap voor stap wordt meegenomen. De app maakt duidelijk wat de gebruiker kan doen en geeft feedback
+                            via tekst, hartjes en visuele interacties.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Doelgroep</h3>
+                        <p>
+                            De doelgroep bestaat uit kinderen, jongeren en fans van magische verhalen en interactieve
+                            ervaringen. Deze gebruikers houden van visuele apps, herkenbare karakters en speelse interacties.
+                        </p>
+
+                        <p>
+                            Voor deze doelgroep is het belangrijk dat de app snel te begrijpen is. De interface moet vrolijk,
+                            duidelijk en laagdrempelig zijn, zodat gebruikers zonder uitleg kunnen starten met kiezen,
+                            plaatsen en interacteren.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Doelstelling</h3>
+                        <p>
+                            Ontwikkel een interactieve mobiele AR-ervaring waarin gebruikers een karakter kunnen kiezen,
+                            dit karakter in hun eigen omgeving kunnen plaatsen en ermee kunnen interacteren. De app moet
+                            eenvoudig, speels en visueel aantrekkelijk zijn voor een jonge doelgroep.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Requirements</h3>
+                        <ul class="detail-list">
+                            <li>De gebruiker moet een karakter kunnen kiezen.</li>
+                            <li>De gebruiker moet naar een AR-scherm kunnen navigeren.</li>
+                            <li>Het karakter moet zichtbaar zijn als 3D-model.</li>
+                            <li>De interface moet geschikt zijn voor mobiel gebruik.</li>
+                            <li>De gebruiker moet met het karakter kunnen interacteren.</li>
+                            <li>De app moet duidelijke visuele feedback geven.</li>
+                            <li>De gebruiker moet een vriendschapsniveau kunnen opbouwen.</li>
+                            <li>De navigatie tussen schermen moet eenvoudig en logisch zijn.</li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Belangrijkste ontwerpkeuzes</h3>
+                        <ul class="detail-list">
+                            <li>
+                                <strong>Speelse visuele stijl</strong> – De app gebruikt zachte kleuren, afgeronde vormen
+                                en vriendelijke visuals om een magische sfeer te creëren.
+                            </li>
+
+                            <li>
+                                <strong>Korte gebruikersflow</strong> – De gebruiker hoeft maar een paar stappen te zetten:
+                                openen, kiezen, scannen en interacteren.
+                            </li>
+
+                            <li>
+                                <strong>Duidelijke feedback</strong> – Tekstwolkjes, hartjes en knoppen maken zichtbaar
+                                wat er gebeurt tijdens de interactie.
+                            </li>
+
+                            <li>
+                                <strong>Mobiel ontwerp</strong> – De schermen zijn gemaakt voor een telefoon, met grote
+                                knoppen en overzichtelijke content.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Interactiestates</h3>
+                        <p>
+                            Interactiestates zijn belangrijk in dit project, omdat de gebruiker moet begrijpen wanneer
+                            een karakter gekozen is, wanneer de AR-omgeving geopend wordt en wanneer een interactie is
+                            uitgevoerd.
+                        </p>
+
+                        <p>
+                            Daarom is er gewerkt met duidelijke knoppen, tekstreacties en hartjes die veranderen op basis
+                            van de interactie. Hierdoor krijgt de gebruiker direct feedback en voelt de app levendiger.
+                        </p>
+
+                        <p>
+                            In een verdere versie zouden extra states toegevoegd kunnen worden, zoals laadstates tijdens
+                            het scannen, foutmeldingen wanneer AR niet werkt en animaties wanneer een nieuw niveau wordt
+                            vrijgespeeld.
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>Toegankelijkheid</h3>
+                        <p>
+                            Bij het ontwerp is rekening gehouden met duidelijkheid en gebruiksgemak. De app is bedoeld
+                            voor mobiel gebruik, waardoor de knoppen groot genoeg moeten zijn en de belangrijkste acties
+                            direct zichtbaar moeten blijven.
+                        </p>
+
+                        <p>
+                            Ook is gekozen voor korte teksten, herkenbare iconen en een rustige opbouw per scherm. Hierdoor
+                            hoeft de gebruiker niet veel te lezen en kan de app snel begrepen worden.
+                        </p>
+
+                        <p>
+                            In een volgende versie zou de toegankelijkheid verder verbeterd kunnen worden met betere
+                            contrastcontrole, ondersteuning voor screenreaders en extra uitleg voor gebruikers die nog
+                            niet bekend zijn met AR.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p class="footer-text">Gemaakt door Dannii Verweij</p>
+            <p class="footer-copyright">© 2026 - Alle rechten voorbehouden</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        function initMobileMenu() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileNav = document.getElementById('mobileNav');
+            const menuIcon = document.getElementById('menuIcon');
+            const closeIcon = document.getElementById('closeIcon');
+
+            if (!mobileMenuBtn || !mobileNav || !menuIcon || !closeIcon) return;
+
+            const mobileLinks = mobileNav.querySelectorAll('a');
+
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileNav.classList.toggle('active');
+
+                if (mobileNav.classList.contains('active')) {
+                    menuIcon.style.display = 'none';
+                    closeIcon.style.display = 'block';
+                } else {
+                    menuIcon.style.display = 'block';
+                    closeIcon.style.display = 'none';
+                }
+            });
+
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileNav.classList.remove('active');
+                    menuIcon.style.display = 'block';
+                    closeIcon.style.display = 'none';
+                });
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', initMobileMenu);
+    </script>
+</body>
+
+</html>

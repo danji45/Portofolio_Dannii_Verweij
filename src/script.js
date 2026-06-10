@@ -36,7 +36,7 @@ const projects = [
     link: './src/Vergaderzaal.html',
     github: null
   },
-   {
+  {
     id: 3,
     title: 'Hackathon Project',
     description: 'Een gebruiksvriendelijke mobiele app voor het reserveren van een vergaderruimte.',
@@ -44,6 +44,26 @@ const projects = [
     tags: ['Figma', 'UI/UX', 'Mobile', 'HTML', 'CSS', 'JavaScript'],
     image: './src/img/Schreenshot_hackathon_inlogscherm.png',
     link: './src/Hackathon.html',
+    github: null
+  },
+  {
+    id: 4,
+    title: 'Zivra',
+    description: 'Een gebruiksvriendelijke website/app voor revalidanten van een beroerte',
+    category: 'Web en App Development',
+    tags: ['Figma', 'UI/UX', 'Mobile', 'website'],
+    image: './src/img/Zivra_home.png',
+    link: './src/Zivra.html',
+    github: null
+  },
+  {
+    id: 5,
+    title: 'AR Project',
+    description: 'Een AR project waarbij je een 3D model van een stoel in je eigen ruimte kunt plaatsen.',
+    category: 'AR Development',
+    tags: ['AR', '3D Modeling', 'JavaScript'],
+    image: './src/img/My_disney_friend_logo.png',
+    link: './src/AR.html',
     github: null
   }
 ];

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZIVRA | Portfolio</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="container nav">
+      <a href="../index.html" class="logo">Portfolio</a>
+      <button id="themeToggle">🌙</button>
+
+      <ul class="nav-menu">
+        <li><a href="../index.html" class="nav-link">Home</a></li>
+        <li><a href="../index.html#about" class="nav-link">Over Mij</a></li>
+        <li><a href="../index.html#projects" class="nav-link">Projecten</a></li>
+        <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <i data-lucide="menu" id="menuIcon"></i>
+        <i data-lucide="x" id="closeIcon" style="display: none;"></i>
+      </button>
+    </nav>
+
+    <ul class="mobile-nav" id="mobileNav">
+      <li><a href="../index.html" class="nav-link">Home</a></li>
+      <li><a href="../index.html#about" class="nav-link">Over Mij</a></li>
+      <li><a href="../index.html#projects" class="nav-link">Projecten</a></li>
+      <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Project Hero -->
+  <section class="project-detail-hero">
+    <div class="container project-detail-hero-content">
+      <a href="../index.html" class="back-link">
+        <i data-lucide="arrow-left"></i>
+        <span>Terug naar projecten</span>
+      </a>
+
+      <div class="project-detail-header">
+        <div class="project-detail-text">
+          <span class="detail-category">UI/UX Design · Datavisualisatie</span>
+          <h1>ZIVRA Datavisualisatie</h1>
+          <p class="project-detail-intro">
+            Een digitaal dashboard waarmee therapeuten en revalidanten inzicht krijgen in oefenkwaliteit,
+            voortgang en bewegingsdata tijdens zelfstandig oefenen met XR.
+          </p>
+
+          <div class="project-detail-tags">
+            <span class="project-tag">Figma</span>
+            <span class="project-tag">UI/UX</span>
+            <span class="project-tag">Dashboard</span>
+            <span class="project-tag">Zorginnovatie</span>
+          </div>
+        </div>
+
+        <div class="project-detail-image-box">
+          <img src="./img/Zivra_screenshot.png" alt="Screenshot van het ZIVRA dashboard"
+            class="project-detail-image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Content -->
+  <section class="project-detail-section">
+    <div class="container">
+      <div class="project-detail-grid">
+        <div class="project-main-content">
+
+          <div class="detail-card">
+            <h2>Over dit project</h2>
+            <p>
+              Voor dit project heb ik gewerkt aan een UI-concept voor het ZIVRA-platform.
+              ZIVRA staat voor Zelfstandig en Intensief trainen Via extended ReAlity.
+              Binnen dit project wordt onderzocht hoe CVA-revalidanten zelfstandig kunnen oefenen
+              met XR-toepassingen, terwijl therapeuten inzicht krijgen in de kwaliteit van deze oefeningen.
+            </p>
+
+            <p>
+              De focus lag op het ontwerpen van een duidelijk dashboard waarin complexe bewegingsdata
+              begrijpelijk wordt weergegeven. Therapeuten moeten snel kunnen zien hoe het met een patiënt gaat,
+              terwijl revalidanten op een eenvoudige en motiverende manier hun eigen voortgang kunnen volgen.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h2>Mijn rol</h2>
+            <p>
+              Binnen dit project heb ik meegewerkt aan het analyseren van de doelgroep, het opstellen van
+              requirements, het uitwerken van persona’s en het ontwerpen van schermen voor het dashboard.
+              Hierbij heb ik vooral gekeken naar hoe informatie duidelijk en overzichtelijk gepresenteerd kan worden.
+            </p>
+
+            <p>
+              Daarnaast heb ik nagedacht over het verschil tussen de therapeutomgeving en de patiëntenomgeving.
+              Therapeuten hebben behoefte aan meer detail en overzicht, terwijl revalidanten vooral duidelijke,
+              positieve en motiverende feedback nodig hebben.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h2>User flow</h2>
+            <p>
+              De gebruikersflow is ontworpen vanuit twee verschillende gebruikersrollen: de therapeut en de
+              revalidant. De therapeut logt in en ziet eerst een overzicht van alle patiënten. Vanuit dit overzicht
+              kan de therapeut snel zien welke patiënten goed vooruitgaan en welke patiënten extra aandacht nodig hebben.
+            </p>
+
+            <p>
+              Daarna kan de therapeut doorklikken naar een patiëntdetailpagina, waar meer informatie zichtbaar is
+              over oefenduur, frequentie, voortgang, pijnscores en kwaliteit van beweging. Voor de revalidant is
+              de flow eenvoudiger gemaakt. Die ziet vooral eigen voortgang, behaalde scores en feedback na het oefenen.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h2>Ontwerpproces</h2>
+            <p>
+              Het ontwerpproces begon met het analyseren van de aangeleverde interviews, focusgroepen,
+              persona’s en requirements. Hieruit kwam naar voren dat therapeuten behoefte hebben aan een snel
+              overzicht, maar ook aan de mogelijkheid om dieper in details te kijken wanneer dat nodig is.
+            </p>
+
+            <p>
+              Daarna zijn low-fidelity wireframes gemaakt om de structuur van het dashboard te bepalen.
+              In deze fase lag de focus vooral op de indeling van informatie, de navigatie en het verschil tussen
+              de therapeutomgeving en de patiëntenomgeving.
+            </p>
+
+            <p>
+              Vervolgens is het ontwerp verder uitgewerkt naar een high-fidelity prototype in Figma.
+              Hierbij is gekeken naar kleurgebruik, typografie, visuele hiërarchie en toegankelijkheid.
+              Stoplichtkleuren zijn gebruikt om snel feedback te geven, bijvoorbeeld bij goed, matig of aandacht nodig.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h2>Testen en iteraties</h2>
+            <p>
+              Tijdens het testen en bespreken van het ontwerp is vooral gekeken of de informatie snel genoeg
+              te begrijpen was. Een belangrijk inzicht was dat therapeuten niet direct alle details nodig hebben.
+              Zij willen eerst een overzicht waarin duidelijk wordt welke patiënten aandacht nodig hebben.
+            </p>
+
+            <p>
+              Op basis van deze inzichten is het ontwerp aangepast door informatie in lagen aan te bieden.
+              De eerste laag geeft een snel overzicht, terwijl de tweede laag meer gedetailleerde data toont.
+              Hierdoor blijft het dashboard overzichtelijk en wordt de gebruiker niet overspoeld met informatie.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h2>Belangrijkste functionaliteiten</h2>
+            <ul class="detail-list">
+              <li>Overzicht van patiënten en hun voortgang</li>
+              <li>Patiëntdetailpagina met oefendata en scores</li>
+              <li>Inzicht in oefenduur, frequentie en voortgang over tijd</li>
+              <li>Weergave van bewegingskwaliteit, ROM en compensatie</li>
+              <li>Pijn- en energieniveau kunnen bekijken of invullen</li>
+              <li>Motiverende voortgangsweergave voor revalidanten</li>
+              <li>Verschil tussen therapeutomgeving en patiëntenomgeving</li>
+            </ul>
+          </div>
+
+          <div class="detail-card">
+            <h2>Uitdagingen & leerpunten</h2>
+            <p>
+              Een belangrijke uitdaging binnen dit project was het vertalen van complexe bewegingsdata naar
+              een begrijpelijke interface. Bewegingsdata kan snel technisch en overweldigend worden, terwijl
+              therapeuten juist weinig tijd hebben om deze informatie te bekijken.
+            </p>
+
+            <p>
+              Tijdens het project heb ik geleerd hoe belangrijk het is om informatie stapsgewijs op te bouwen.
+              Niet alles hoeft direct zichtbaar te zijn. Door eerst een samenvatting te tonen en daarna pas
+              verdiepende informatie aan te bieden, blijft het dashboard overzichtelijk en bruikbaar.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h2>Eindresultaat</h2>
+            <p>
+              Het eindresultaat is een UI-concept voor een ZIVRA-dashboard. In dit dashboard kunnen therapeuten
+              snel zien hoe het met hun patiënten gaat en doorklikken naar meer gedetailleerde informatie wanneer
+              dat nodig is.
+            </p>
+
+            <p>
+              Daarnaast is er nagedacht over een aparte omgeving voor revalidanten. Deze omgeving richt zich
+              minder op technische data en meer op motivatie, voortgang en duidelijke feedback na het oefenen.
+            </p>
+
+            <a href="#" class="project-link" target="_blank">Bekijk het Figma prototype</a>
+          </div>
+
+          <div class="detail-card">
+            <h2>Reflectie</h2>
+            <p>
+              Tijdens dit project heb ik ervaren hoe belangrijk gebruiksvriendelijkheid is binnen de zorg.
+              Een dashboard moet er niet alleen goed uitzien, maar vooral snel te begrijpen en betrouwbaar zijn.
+              Therapeuten moeten in korte tijd kunnen zien welke patiënten extra aandacht nodig hebben.
+            </p>
+
+            <p>
+              Ook heb ik geleerd dat dezelfde data op verschillende manieren gepresenteerd moet worden,
+              afhankelijk van de gebruiker. Een therapeut heeft behoefte aan detail en analyse, terwijl een
+              revalidant juist behoefte heeft aan duidelijke, positieve en motiverende feedback.
+            </p>
+
+            <p>
+              Met meer tijd zou ik het ontwerp verder willen testen met echte therapeuten en revalidanten.
+              Op basis van hun feedback zou ik de datavisualisaties verder verbeteren, zodat het dashboard nog
+              beter aansluit bij de praktijk.
+            </p>
+          </div>
+        </div>
+
+        <aside class="project-sidebar">
+          <div class="detail-card">
+            <h3>Projectinfo</h3>
+            <div class="info-item">
+              <span class="info-label">Type</span>
+              <span class="info-value">Dashboard / Webapp</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Rol</span>
+              <span class="info-value">Research, UI/UX Design & Prototype</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Periode</span>
+              <span class="info-value">2026</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Tools</span>
+              <span class="info-value">Figma, HTML/CSS</span>
+            </div>
+          </div>
+
+          <div class="detail-card">
+            <h3>Waarom dit project?</h3>
+            <p>
+              Dit project laat zien hoe ik complexe data kan vertalen naar een duidelijke en bruikbare interface.
+              Binnen ZIVRA draait het niet alleen om een mooi ontwerp, maar vooral om het ondersteunen van
+              therapeuten en revalidanten in een belangrijk zorgproces.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h3>Probleem</h3>
+            <p>
+              Wanneer revalidanten zelfstandig oefenen met XR, is het voor therapeuten lastig om goed zicht te
+              houden op de kwaliteit van de oefeningen. Ze kunnen niet altijd zien of iemand de beweging correct
+              uitvoert, compenseert, pijn ervaart of vooruitgang boekt.
+            </p>
+
+            <p>
+              Voor revalidanten is het daarnaast lastig om gemotiveerd te blijven wanneer vooruitgang langzaam
+              gaat en niet direct zichtbaar is. Zij hebben behoefte aan duidelijke feedback en inzicht in hun eigen groei.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h3>Doelgroep</h3>
+            <p>
+              De primaire doelgroep bestaat uit ergo- en fysiotherapeuten die werken met CVA-revalidanten.
+              Zij gebruiken het dashboard om snel inzicht te krijgen in oefenkwaliteit, voortgang en mogelijke
+              aandachtspunten.
+            </p>
+
+            <p>
+              De secundaire doelgroep bestaat uit CVA-revalidanten die zelfstandig oefenen met XR.
+              Voor hen moet de interface eenvoudig, toegankelijk en motiverend zijn, zodat zij beter begrijpen
+              hoe het oefenen gaat en waar zij vooruitgang boeken.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h3>Doelstelling</h3>
+            <p>
+              Ontwerp een UI-concept voor het ZIVRA-platform waarmee bewegingsgegevens van CVA-revalidanten
+              op een begrijpelijke, inzichtelijke en bruikbare manier worden gepresenteerd aan therapeuten en
+              revalidanten.
+            </p>
+
+            <p>
+              Het dashboard moet therapeuten helpen om sneller klinische beslissingen te nemen en moet
+              revalidanten ondersteunen bij motivatie en zelfstandig oefenen.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h3>Requirements</h3>
+            <ul class="detail-list">
+              <li>Therapeuten moeten snel kunnen zien hoe het met een patiënt gaat.</li>
+              <li>Het systeem moet voortgang over tijd duidelijk weergeven.</li>
+              <li>De interface moet onderscheid maken tussen therapeut en revalidant.</li>
+              <li>Revalidanten moeten eenvoudige en motiverende feedback krijgen.</li>
+              <li>Therapeuten moeten kunnen doorklikken naar gedetailleerde oefeninformatie.</li>
+              <li>Het dashboard moet informatie tonen over oefenduur, frequentie en kwaliteit.</li>
+              <li>De interface moet toegankelijk en overzichtelijk blijven.</li>
+            </ul>
+          </div>
+
+          <div class="detail-card">
+            <h3>Belangrijkste ontwerpkeuzes</h3>
+            <ul class="detail-list">
+              <li>
+                <strong>Overzicht eerst</strong> – Therapeuten krijgen eerst een samenvatting te zien,
+                zodat zij snel kunnen bepalen welke patiënten aandacht nodig hebben.
+              </li>
+
+              <li>
+                <strong>Informatie in lagen</strong> – Gedetailleerde data is beschikbaar, maar wordt pas
+                getoond wanneer de gebruiker doorklikt naar een patiëntdetailpagina.
+              </li>
+
+              <li>
+                <strong>Motiverende patiëntomgeving</strong> – Voor revalidanten ligt de nadruk op groei,
+                positieve feedback en haalbare doelen in plaats van op technische data.
+              </li>
+
+              <li>
+                <strong>Stoplichtkleuren</strong> – Kleur wordt gebruikt om snel duidelijk te maken of iets
+                goed gaat, aandacht nodig heeft of mogelijk een probleem is.
+              </li>
+            </ul>
+          </div>
+
+          <div class="detail-card">
+            <h3>Interactiestates</h3>
+            <p>
+              In het dashboard spelen interactiestates een belangrijke rol, omdat gebruikers snel moeten
+              begrijpen wat de status van een patiënt of oefening is. Denk bijvoorbeeld aan statussen zoals
+              goed, matig, aandacht nodig of geen data beschikbaar.
+            </p>
+
+            <p>
+              Wanneer een therapeut op een patiënt klikt, verandert de interface van een algemeen overzicht
+              naar een detailweergave. Hier kan de therapeut meer informatie bekijken over oefeningen,
+              voortgang en mogelijke aandachtspunten.
+            </p>
+
+            <p>
+              Voor revalidanten kunnen interactiestates worden gebruikt om feedback na een oefening duidelijk
+              te maken, bijvoorbeeld met een score, voortgangsbalk of korte positieve melding.
+            </p>
+          </div>
+
+          <div class="detail-card">
+            <h3>Toegankelijkheid</h3>
+            <p>
+              Bij het ontwerp is rekening gehouden met toegankelijkheid, omdat de doelgroep bestaat uit
+              zorgprofessionals en CVA-revalidanten. De interface moet duidelijk, rustig en makkelijk te begrijpen zijn.
+            </p>
+
+            <p>
+              Daarom is gekozen voor duidelijke visuele hiërarchie, goed leesbare typografie, voldoende contrast
+              en herkenbare kleuren. Ook is er rekening gehouden met het verschil in gebruik: therapeuten gebruiken
+              het dashboard vooral op desktop of tablet, terwijl revalidanten eerder een mobiele weergave nodig hebben.
+            </p>
+
+            <p>
+              De patiëntenomgeving is bewust eenvoudiger gehouden, zodat revalidanten niet worden overspoeld
+              met informatie en vooral snel kunnen zien hoe hun voortgang eruitziet.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="footer-text">Gemaakt door Dannii Verweij</p>
+      <p class="footer-copyright">© 2026 - Alle rechten voorbehouden</p>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    function initMobileMenu() {
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const mobileNav = document.getElementById('mobileNav');
+      const menuIcon = document.getElementById('menuIcon');
+      const closeIcon = document.getElementById('closeIcon');
+
+      if (!mobileMenuBtn || !mobileNav || !menuIcon || !closeIcon) return;
+
+      const mobileLinks = mobileNav.querySelectorAll('a');
+
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileNav.classList.toggle('active');
+
+        if (mobileNav.classList.contains('active')) {
+          menuIcon.style.display = 'none';
+          closeIcon.style.display = 'block';
+        } else {
+          menuIcon.style.display = 'block';
+          closeIcon.style.display = 'none';
+        }
+      });
+
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileNav.classList.remove('active');
+          menuIcon.style.display = 'block';
+          closeIcon.style.display = 'none';
+        });
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', initMobileMenu);
+  </script>
+</body>
+
+</html>
